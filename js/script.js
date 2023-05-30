@@ -115,4 +115,4 @@ function countVowels(word) {
   var count = countVowels(word);
   console.log("Гласные в слове '" + word + "': " + count);
   
-  
+  huufyfyuyugigi
