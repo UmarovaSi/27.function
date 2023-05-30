@@ -72,7 +72,7 @@ function calc(arg1, arg2, operator) {
 
 
 // Палиндромы
-function isPalindrome(word) {
+function isPalindrom(word) {
     let reversedWord = '';
     for (let i = word.length - 1; i >= 0; i--) {
       reversedWord += word[i];
@@ -81,16 +81,16 @@ function isPalindrome(word) {
     return word === reversedWord;
   }
   
-  function printPalindromeWords(words) {
+  function printPalindromWords(words) {
     for (let i = 0; i < words.length; i++) {
       let currentWord = words[i];
-      let isWordPalindrome = isPalindrome(currentWord);
-      console.log(currentWord + ': ' + isWordPalindrome);
+      let isWordPalindrom = isPalindrom(currentWord);
+      console.log(currentWord + ': ' + isWordPalindrom);
     }
   }
   
   let words = ['level', 'deed', 'hello', 'world', 'nun'];
-  printPalindromeWords(words);
+  printPalindromWords(words);
 
 
 
