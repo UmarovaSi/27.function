@@ -101,9 +101,9 @@ function countVowels(word) {
     var vowels = ['a', 'e', 'i', 'o', 'u'];
   
     for (var i = 0; i < word.length; i++) {
-      var letter = word[i].toLowerCase();
+      var letter = word[i]();
   
-      if (vowels.includes(letter)) {
+      if (vowels.includes) {
         vowelCount++;
       }
     }
